@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%=title%></title>
+  <style>
+    *{
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .content{
+      padding: 24px 48px;
+    }
+    .expression{
+      font-size: 100px;
+      font-weight: normal;
+    }
+    .title{
+      font-size: 42px;
+      margin-top: 12px;
+    }
+    .welcome{
+      font-size: 30px;
+      margin-top: 12px;
+    }
+    .linkBox{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .linkBox a{
+      color: #2E5CD5;
+      text-decoration: none;
+      margin-right: 15px;
+      font-size: 18px;
+    }
+    .linkBox a:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="expression">:) </div>
+    <div class="title"><%=title%></div>
+    <div class="welcome"><%=welcome%></div>
+    <div class="linkBox">
+      <a href="https://www.zhangyubk.com">完全开发手册</a>
+      <a href="https://www.zhangyubk.com">GitHub源码</a>
+    </div>
+  </div>
+</body>
+</html>
