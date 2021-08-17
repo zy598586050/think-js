@@ -1,6 +1,6 @@
 {
   "name": "think-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a node framework based on koa2 encapsulation.",
   "main": "index.js",
   "_moduleAliases": {
@@ -16,6 +16,7 @@
   "author": "zhangyu",
   "license": "ISC",
   "dependencies": {
+    "child_process": "^1.0.2",
     "ejs": "^3.1.6",
     "koa-body": "^4.2.0",
     "koa-router": "^10.0.0",
@@ -24,6 +25,7 @@
     "koa2": "^2.0.0-alpha.7",
     "module-alias": "^2.2.2",
     "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.7",
     "redis": "^3.1.2",
     "think-js-lib": "^1.0.4"
