@@ -6,6 +6,7 @@
 const Controller = require('think-js-lib').Controller
 
 class HelloController extends Controller{
+
     // 用于演示 restful api 接口功能
     sayHello(){
         let result = [
@@ -15,16 +16,11 @@ class HelloController extends Controller{
                 blog: 'https://www.zhangyubk.com'
             }
         ]
+        // 演示Model用法
+        result[0]['frame'] = this.M('hello').getUrl()
         return this.showSuccess(result)
     }
-    
-    // 用于演示视图功能
-    showIndex(){
-        return this.View('index',{
-            title: 'ThinkJS V1.0.0',
-            welcome: '一个企业级的NodeJS应用框架，为提高开发团队和开发人员的开发效率而生。'
-        })
-    }
+
 }
 
 module.exports = HelloController

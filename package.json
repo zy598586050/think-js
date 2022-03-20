@@ -1,33 +1,43 @@
 {
   "name": "think-js",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "This is a node framework based on koa2 encapsulation.",
   "main": "index.js",
   "_moduleAliases": {
     "@": "app",
     "@route": "route",
     "@config": "config",
-    "@views": "views"
+    "@utils": "utils"
   },
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "pm2 start index.js -i 3 --name='think-js'"
+    "start": "pm2 start index.js -i 3 --name='$npm_package_name'"
   },
   "author": "zhangyu",
   "license": "ISC",
   "dependencies": {
+    "@alicloud/sms-sdk": "^1.1.6",
+    "ali-oss": "^6.17.1",
+    "alipay-sdk": "^3.2.0",
     "child_process": "^1.0.2",
-    "ejs": "^3.1.6",
+    "crypto": "^1.0.1",
+    "elasticsearch": "^16.7.3",
+    "figlet": "^1.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "jsrsasign": "^10.5.12",
     "koa-body": "^4.2.0",
-    "koa-router": "^10.0.0",
-    "koa-session": "^6.2.0",
-    "koa-views": "^7.0.1",
+    "koa-router": "^10.1.1",
     "koa2": "^2.0.0-alpha.7",
+    "log4js": "^6.4.2",
+    "md5-node": "^1.0.1",
     "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.4",
     "mysql": "^2.18.1",
-    "node-fetch": "^2.6.1",
-    "nodemon": "^2.0.7",
-    "redis": "^3.1.2",
-    "think-js-lib": "^1.0.4"
+    "node-fetch": "2.6.1",
+    "nodemon": "^2.0.15",
+    "redis": "3.1.2",
+    "think-js-lib": "^1.0.5",
+    "wxpay-v3": "^3.0.2"
   }
 }

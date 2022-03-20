@@ -8,4 +8,3 @@
 const ThinkJS = require('think-js-lib')
 
 ThinkJS.start()
-

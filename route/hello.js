@@ -7,11 +7,6 @@
 const checkLogin = require('@/middleware/checkLogin.js')
 
 module.exports = (route) => {
-    // hello接口
-    route.group('/api/v1',(router) => {
-        router.get('/hello','hello/sayHello')
-    })
-
-    // 视图页
-    route.get('/','hello/showIndex')
+    // 路由配置演示
+    route.get('/hello','hello/sayHello')
 }
