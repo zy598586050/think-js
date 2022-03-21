@@ -97,13 +97,18 @@ npm run start
 
 ## 生态
 
-* [ThinkJSAdmin]() 带权限配置的后台管理系统（技术方案集成）
-* [ThinkJSWeb]() 移动端网页（技术方案集成）
+* [ThinkJSAdmin](https://gitee.com/zhangyubk/think-js-admin) 带权限配置的后台管理系统（技术方案集成）
+* [ThinkJSWeb](https://gitee.com/zhangyubk/think-js-web) 移动端网页（技术方案集成）
 * ...
 
 ## 说明
 
-此项目为纯净版，舍弃了众多技术方案的演示案例，如需查看带业务逻辑的案例版，请移步 [这里]()
+此项目为纯净版，舍弃了众多技术方案的演示案例，如需查看带业务逻辑的案例版，请移步 [这里](https://github.com/zy598586050/think-js-pro)
+
+## 架构
+<p align="center">
+  <img src="https://think-js.cn/xmind.png">
+</p>
 
 ## 执照
 

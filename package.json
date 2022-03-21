@@ -37,7 +37,7 @@
     "node-fetch": "2.6.1",
     "nodemon": "^2.0.15",
     "redis": "3.1.2",
-    "think-js-lib": "^1.0.5",
+    "think-js-lib": "^1.1.0",
     "wxpay-v3": "^3.0.2"
   }
 }
