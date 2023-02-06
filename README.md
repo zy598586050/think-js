@@ -97,8 +97,8 @@ npm run start
 
 ## 生态
 
-* [ThinkVue3Admin](https://gitee.com/zhangyubk/think-vue3-admin) 带权限配置的后台管理系统（技术方案集成）
-* [ThinkReact18Admin](https://gitee.com/zhangyubk/think-react18-admin) 带权限配置的后台管理系统（技术方案集成）
+* [ThinkVue3Admin](https://github.com/zy598586050/think-vue3-admin) 带权限配置的后台管理系统（技术方案集成）
+* [ThinkReact18Admin](https://github.com/zy598586050/think-react18-admin) 带权限配置的后台管理系统（技术方案集成）
 * [ThinkJSWeb](https://gitee.com/zhangyubk/think-js-web) 移动端网页（技术方案集成）
 * ...
 
